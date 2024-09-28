@@ -1,0 +1,49 @@
+:root{
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color : #ccc;
+    --main-color: #05b4ff;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+
+body {
+    background-color: var(--second-bg-color);
+    color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #ccc;
+}
+
+/* Container with 50% width */
+#container {
+    width: 50%;
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+#asyncBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#asyncBtn:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
